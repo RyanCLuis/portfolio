@@ -1,14 +1,17 @@
 import './App.css';
+import Nav from '../components/Nav/Nav'
+import Main from '../components/AboutMe/Main'
+import Footer from '../components/Footer/Footer'
+import { BrowserRouter as Router} from 'react-router-dom'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Portfolio Website
-        </p>
-      </header>
-    </div>
+    <Router >
+      <Nav />
+      <Main  />
+      <Footer />
+    </Router>
   );
 }
 
