@@ -71,8 +71,6 @@ button {
     font-weight: 600;
     transition: all 0.6s ease-in-out;
     background: linear-gradient(145deg, #854CE6, #B67AFF);
-    box-shadow:  20px 20px 60px #1F2634,
-    -20px -20px 60px #1F2634;
     &:hover {
     font-size: 22px;
     width: 55%;

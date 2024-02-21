@@ -1,9 +1,33 @@
+import React from 'react'
+import '../Nav/Nav.css'
 
-export default function Nav() {
-
+const Navbar = () => {
     return (
-        <nav>
-            <p>this is a test to see if Nav works</p>
-        </nav>
+    <>
+        <div className='Nav'>
+            <div className='NavbarContainer'>
+                <a className='NavLogo' href='/'>
+                    <span>Portfolio</span>
+                </a>
+            <div className='NavItems'>
+                <a href='/About'>About</a>
+                <a href='/Skills'>Skills</a>
+                <a href='/Projects'>Projects</a>
+                <a href='/Contact'>Contact</a>
+            </div>
+            <div className='ButtonContainer'>
+                <a 
+                    className='GitHubButton' 
+                    href="https://github.com/ryancluis" 
+                    target="_blank"
+                    rel="noreferrer"
+                >Github Profile</a>
+            </div>
+
+            </div>
+        </div>
+    </>
     )
 }
+
+export default Navbar

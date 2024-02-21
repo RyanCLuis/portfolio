@@ -1,0 +1,89 @@
+.Nav {
+  background: #222A35;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.NavbarContainer {
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 60px;
+z-index: 1;
+width: 100%;
+padding: 0 24px;
+max-width: 1100px;
+}
+
+.NavLogo {
+  width: 80%;    
+  padding: 0 6px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+}
+
+.NavLogo span {
+  color: #9709df;
+  padding: 0 4px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.NavLogo span:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.GitHubButton {
+  border: 1.8px solid #9709df;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 70%;
+  border-radius: 20px;
+  color: #9709df;
+  cursor: pointer;
+  padding: 0 20px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.NavItems {
+  color: #9709df;
+  text-decoration: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 6px;
+  list-style: none;
+}
+
+.NavItems a {
+  color: #9709df;
+  text-decoration: none;
+}
+
+.NavItems a:hover {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.2s ease-in-out;
+}
+
+.ButtonContainer {
+width: 80%;  
+height: 100%;
+display: flex;
+justify-content: end;
+align-items: center;
+padding: 0 6px;
+}
