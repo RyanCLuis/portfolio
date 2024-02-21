@@ -1,7 +1,7 @@
 const Footer = () => {
     return (
         <footer>
-            <p>contact info</p>
+            <h1>Contact</h1>
         </footer>
     )
 }
