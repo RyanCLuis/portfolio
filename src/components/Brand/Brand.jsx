@@ -1,6 +1,6 @@
 import React from 'react'
 import Pic from '../../images/profilePicture.jpg'
-import '../AboutMe/Main.css'
+import '../Brand/Brand.css'
 import AnimatedBg from '../AnimatedBg/AnimatedBg'
 
 
