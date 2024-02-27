@@ -14,6 +14,7 @@ function App() {
     <Router >
       <Nav />
       <Main  />
+      <Skills />
       <Footer />
     </Router>
   );
