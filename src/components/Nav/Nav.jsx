@@ -10,10 +10,10 @@ const Navbar = () => {
                     <span>Portfolio</span>
                 </a>
             <div className='NavItems'>
-                <a href='/About'>About</a>
-                <a href='/Skills'>Skills</a>
-                <a href='/Projects'>Projects</a>
-                <a href='/Contact'>Contact</a>
+                <a href='#About'>About</a>
+                <a href='#Skills'>Skills</a>
+                <a href='#Projects'>Projects</a>
+                <a href='#Contact'>Contact</a>
             </div>
             <div className='ButtonContainer'>
                 <a 

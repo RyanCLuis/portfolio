@@ -2,7 +2,7 @@ export const projects = [
     {
         title: 'Listen!',
         description: "Utilized React for the front-end of the app to create a podcast website so the user can upload, share and listen to podcasts. Made RESTful API fetch calls to an Express, MongoDB and Node.js backend to handle all create, read, update and delete (CRUD) operations while testing all the backend routes through Postman.",
-        image: 'src/images/listen.jpg',
+        image: '/images/listen.jpg',
         tags: ['Mongo', 'Express', 'React', 'Node'],
         site: 'https://rcl-listen.netlify.app/',
         gitHub: 'https://github.com/RyanCLuis/Listen',
@@ -11,7 +11,7 @@ export const projects = [
     {
         title: 'Fur-Ever-Friends',
         description:"Managed a group of peers as a GitHub manager, to deploy an adoption app. Built both the front-end and back-end of the app using Django and PostgreSql so you can add, update and delete a pet for adoption. Developed and maintained two additional data entities alongside the User model within a Django framework environment and implemented Django's authentication system for secure user access. Achieved full-CRUD functionality for data management as well as utilized AWS S3 bucket infrastructure for efficient storage and uploading of pet images.",
-        image: 'src/images/fur-ever-friends.png',
+        image: '/images/fur-ever-friends.png',
         tags: ['Django', 'JavaScript', 'PostgreSql', 'AWS'],
         site: 'https://fureverfriends-lhor.onrender.com/',
         gitHub: 'https://github.com/RyanCLuis/Fur-Ever-Friends',
@@ -20,7 +20,7 @@ export const projects = [
     {
         title: 'Rickipedia',
         description: "Developed a full-stack application using Node/Express/MongoDB, using a third party API, to see a wiki page of the first 5 seasons of Rick and Morty. Rickipedia demonstrates how an API works, extracting the information and displaying them on a web page.",
-        image: '/images/3.jpg',
+        image: '/images/rickipedia.png',
         tags: ['EJS', 'CSS', 'JavaScript', 'Node', 'Express', 'MongoDB'],
         site: 'https://rickandmorty-ga.fly.dev/',
         gitHub: 'https://github.com/RyanCLuis/Rick-and-Morty',
@@ -29,7 +29,7 @@ export const projects = [
     {
         title: 'Don’t Blow Your Mind!',
         description: "Designed an interactive game using HTML, CSS, and JavaScript, demonstrating proficiency in front-end web development. Successfully implemented game mechanics inspired by Minesweeper, showcasing understanding of the interplay between HTML, CSS, and JavaScript for creating functional and engaging user experiences.",
-        image: '/images/4.jpg',
+        image: '/images/dontBlowYourMind.jpg',
         tags: ['HTML', 'CSS', 'JavaScript'],
         site: 'https://ryancluis.github.io/Minesweeper/',
         gitHub: 'https://github.com/RyanCLuis/Minesweeper',

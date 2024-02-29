@@ -1,8 +1,26 @@
 import React from 'react'
+import { projects } from '../data/projects'
+import '../Projects/Projects.css'
+import ProjectCard from '../Cards/ProjectCards'
 
 const Projects = () => {
   return (
-    <div>Projects</div>
+    <div className='Container' id='projects'>
+      <div className='Wrapper'>
+        <div className='Title'>Projects</div>
+        <div className='Desc'>
+          I have worked on a wide range of projects, they are:
+        </div>
+          <br />
+        </div>
+        <div className='CardContainer'>
+          {projects
+          .map((project) => (
+            <ProjectCard project={project} />
+          ))}
+        </div>
+      </div>
+
   )
 }
 
