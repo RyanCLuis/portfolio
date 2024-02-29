@@ -1,0 +1,89 @@
+.Container {
+    background: #222A35;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    align-items: center;
+}
+
+.Wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1350px;
+    padding: 80px 0;
+    gap: 12px;
+}
+
+.Skills {
+    font-size: 35px;
+    text-align: center;
+    font-weight: 600;
+    margin-top: 20px;
+    color: #F2F3F4;
+}
+
+.Desc {
+    font-size: 25px;
+    text-align: center;
+    max-width: 600px;
+    color: #F2F3F4;
+}
+
+.SkillsContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 12px;
+}
+
+.Skill {
+    width: 100%;
+    max-width: 500px;
+    background: #1C1E27;
+    border: 0.1px solid #F2F3F4;
+    border-radius: 16px;
+    padding: 18px 36px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.SkillTitle {
+    font-size: 25px;
+    font-weight: 600;
+    color: #F2F3F4;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.SkillList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.SkillItem {
+    font-size: 16px;
+    font-weight: 400;
+    color: #F2F3F4;
+    border: 1px solid #F2F3F4;
+    border-radius: 12px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.SkillItem img {
+    width: 20px;
+    height: 20px;
+}

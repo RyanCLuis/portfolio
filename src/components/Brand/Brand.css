@@ -5,7 +5,7 @@
     position: relative;
     z-index: 1;
     padding: 0 30px;
-    background: #222a35cc;
+    background: #2e3847
 }
 
 .Bg {
@@ -59,7 +59,8 @@ h2 {
 
 p {
     font-size: 20px;
-    line-height: 30px;
+    line-height: 32px;
+    margin-bottom: 33px;
     color: azure;
 }
 

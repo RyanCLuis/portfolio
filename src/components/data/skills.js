@@ -4,7 +4,7 @@ export const skills = [
         skills: [
             {
                 name: 'React',
-                image: '/images/Skills/react.png'
+                image: '/images/Skills/React.webp'
             },
             {
                 name: 'JavaScript',
@@ -12,7 +12,7 @@ export const skills = [
             },
             {
                 name: 'HTML',
-                image: '/images/Skills/html.png'
+                image: '/images/Skills/HTML.png'
             },
             {
                 name: 'CSS',
@@ -37,7 +37,7 @@ export const skills = [
             },
             {
                 name: 'Express',
-                image: '/images/Skills/express.png'
+                image: '/images/Skills/Express.png'
             },
             {
                 name: 'MongoDB',
@@ -45,7 +45,7 @@ export const skills = [
             },
             {
                 name: 'PostgreSQL',
-                image: '/images/Skills/postgresql.png'
+                image: '/images/Skills/PosrgresSQL.png'
             },
             {
                 name: 'Django',
@@ -62,11 +62,11 @@ export const skills = [
         skills: [
             {
                 name: 'Git',
-                image: '/images/Skills/git.png'
+                image: '/images/Skills/Git.png'
             },
             {
                 name: 'GitHub',
-                image: '/images/Skills/github.png'
+                image: '/images/Skills/GitHub.png'
             },
             {
                 name: 'Postman',
@@ -82,19 +82,19 @@ export const skills = [
             },
             {
                 name: 'VS Code',
-                image: '/images/Skills/vscode.png'
+                image: '/images/Skills/VsCode.png'
             },
             {
                 name: 'Adobe Photoshop',
-                image: '/images/Skills/adobephotoshop.png'
+                image: '/images/Skills/adobePhotoshop.png'
             },
             {
-                name: 'AutoCAD',
-                image: '/images/Skills/autocad.png'
+                name: 'SolidWorks',
+                image: '/images/Skills/SolidWorks.png'
             },
             {
                 name: 'Sony Vegas',
-                image: '/images/Skills/sonyvegas.png'
+                image: '/images/Skills/SonyVegas.png'
             }
         ]
     }

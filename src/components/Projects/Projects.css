@@ -1,5 +1,5 @@
 .Container {
-    background: #222a35cc;
+    background: #2e3847;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -21,8 +21,8 @@
 
 }
 
-.Title {
-font-size: 42px;
+.Projects {
+font-size: 35px;
 text-align: center;
 font-weight: 600;
 margin-top: 20px;
@@ -30,10 +30,10 @@ margin-top: 20px;
 }
 
 .Desc {
-    font-size: 18px;
+    font-size: 25px;
     text-align: center;
     max-width: 600px;
-    color: #b1b2b3;
+    color: #F2F3F4;
 }
 
 .CardContainer {

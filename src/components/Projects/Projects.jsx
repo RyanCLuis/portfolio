@@ -7,7 +7,7 @@ const Projects = () => {
   return (
     <div className='Container' id='projects'>
       <div className='Wrapper'>
-        <div className='Title'>Projects</div>
+        <div className='Projects'>Projects</div>
         <div className='Desc'>
           I have worked on a wide range of projects, they are:
         </div>
