@@ -1,0 +1,69 @@
+.FooterContainer {
+  width: 100%;
+  background-color: #222A35;
+  padding: 2rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+
+.FooterWrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  align-items: center;
+  padding: 1rem;
+  color: #F2F3F4;
+}
+
+.Logo {
+  font-weight: 600;
+  font-size: 20px;
+  color: #9709df;
+}
+
+.FooterNav {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.FooterNavLink {
+    color: azure;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.FooterNavLink:hover {
+color: #9709df;
+}
+
+.SocialMediaIcons {
+  display: flex;
+  margin-top: 1rem;
+}
+
+.SocialMediaIcon {
+    height: 24px;
+    color: azure;
+    margin: 0 0.5rem;
+    transition: color 0.2s ease-in-out;
+}
+
+.SocialMediaIcon:hover {
+  color: #9709df;
+}
+
+.Copyright {
+  margin-top: 1.9rem;
+  font-size: 0.9rem;
+  color: azure;
+  text-align: center;
+}

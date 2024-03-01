@@ -9,6 +9,7 @@
     flex-direction: column;
     gap: 14px;
     transition: all 0.5s ease-in-out;
+    margin-bottom: 5rem;
 }
 
 .Card:hover {
