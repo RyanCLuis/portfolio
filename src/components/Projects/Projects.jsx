@@ -1,7 +1,7 @@
 import React from 'react'
 import { projects } from '../data/projects'
 import '../Projects/Projects.css'
-import ProjectCard from '../Cards/ProjectCards'
+import ProjectCard from '../ProjectCards/ProjectCards'
 
 const Projects = () => {
   return (

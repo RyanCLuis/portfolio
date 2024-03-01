@@ -1,5 +1,5 @@
 import React from 'react'
-import '../Cards/ProjectCards.css'
+import './ProjectCards.css'
 import {Card, Image} from 'react-bootstrap'
 
 const ProjectCards = ({project}) => {

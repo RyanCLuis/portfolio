@@ -9,6 +9,7 @@ const Footer = () => {
                 <ul className="FooterNav">
                     <a className="FooterNavLink" href="#About">About</a>
                     <a className="FooterNavLink" href="#Skills">Skills</a>
+                    <a className="FooterNavLink" href="#Experiences">Experiences</a>
                     <a className="FooterNavLink" href="#Projects">Projects</a>
                     <a className="FooterNavLink" href="#Contact">Contact</a>
                 </ul>

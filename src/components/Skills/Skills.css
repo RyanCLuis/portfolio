@@ -23,6 +23,7 @@
 .Skills {
     font-size: 35px;
     text-align: center;
+    justify-content: center;
     font-weight: 600;
     margin-top: 20px;
     color: #F2F3F4;
